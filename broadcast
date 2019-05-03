@@ -16,7 +16,7 @@ while True:
 	
 	
 while(true)
- t = sense.get_temperature()
+  t = sense.get_temperature()
   p = sense.get_pressure()
   h = sense.get_humidity()
 
