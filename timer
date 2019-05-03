@@ -1,0 +1,13 @@
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+G = [0,255,0]
+r = [255,0,0]
+x = [0,0,0]
+
+
+for i in range(1, 10, 2):
+  sense.show_letter( str(i), r)
+  sleep(1)
