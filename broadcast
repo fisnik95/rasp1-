@@ -15,7 +15,7 @@ while True:
 	time.sleep(1)
 	
 	
-while(true)
+
   t = sense.get_temperature()
   p = sense.get_pressure()
   h = sense.get_humidity()
@@ -28,5 +28,7 @@ while(true)
   # Create the message
   # str() converts the value to a string so it can be concatenated
   message = "Temperature: " + str(t) + " Pressure: " + str(p) + " Humidity: " + str(h)
+  
+  time.sleep(1)
   
   # Display the scrolling message
